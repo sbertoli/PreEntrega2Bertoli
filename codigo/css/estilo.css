@@ -1,4 +1,11 @@
-
+/* RESETEO */
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+ 
+ 
  header{
     position: sticky;
     top: 0;
@@ -220,7 +227,7 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
 .contenedorConsulta{
     display: flex;
     flex-direction: column;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     color: white;
 
@@ -370,7 +377,7 @@ textarea{
 /* Estilos para mobile*/
 
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 844px) and (max-width: 1542px){
     .grid-container{
         /* grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2,1fr); */
@@ -400,12 +407,18 @@ textarea{
     .consulta{
       display: inline;
     }
+
+    .contenedorConsulta{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-@media (max-width: 767px){
+@media (max-width: 844px){
     .grid-container{
-        height: 450px ;
-        width: 550px;
+        height: 250px ;
+        width: 350px;
+        
     }
     .contenedorFlex{
         display: grid;
@@ -421,6 +434,11 @@ textarea{
     }
     .consulta{
         display: inline;
+    }
+
+    .contenedorConsulta{
+        display: flex;
+        flex-direction: column;
     }
 }
 
