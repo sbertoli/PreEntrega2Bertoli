@@ -444,9 +444,10 @@ textarea{
     }
 
     .tituloProduc{
-        text-align: center;
-        font-size: 10px;
         display: block;
+        font-size: 70px;
+        text-align: center;
+        
     }
 }
 
