@@ -459,9 +459,6 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
         text-align: center;
     }
 
-    .container{
-        display: block;
-    }
     
     
 }
@@ -498,12 +495,7 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
         font-size: 40px;
     }
     
-    .container{
-        display: flex;
-        flex-direction: column;
-       
-      
-    }
+    
 }
 
 
