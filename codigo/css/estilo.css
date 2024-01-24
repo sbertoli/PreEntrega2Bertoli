@@ -63,7 +63,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: 5px;
  
 }
@@ -145,6 +145,62 @@ h1 {
     background-color: gray;
 }
 
+/* CONTACTO */
+.container{
+    background-color: #000000;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid gray;
+    color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgb(104, 104, 104);
+
+}
+
+h3{
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caja{
+    display: flex;
+    margin: 5px 0px ;
+}
+
+.caja label {
+    flex-basis: 80px;
+}
+
+.caja input {
+    flex: 1; 
+}
+
+.btnContacto{
+    background-color: rgb(153, 153, 153);
+    color: #fff;
+    border: none;
+    padding: 6px;
+    margin-top: 5px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    
+
+}
+.btnContacto:hover{
+    transform: scale(1.02);
+}
+
 /* GRID */
 
 .grid-container{
@@ -224,6 +280,14 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
 
  /*FOOTER*/
 
+ .derechos {
+    background-color: #fafafa;
+    text-align: center;
+    border: black solid 2px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
 .contenedorConsulta{
     display: flex;
     flex-direction: column;
@@ -281,9 +345,7 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
  
 
   
-  .derechos{
-    text-align: center;
-  }
+  
 
   /*APARTADO PRODUCTOS*/
   .botonComprar{
@@ -310,23 +372,7 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
 .imgGracias{
     text-align: center;
 }
-/*Formulario*/
-form{
-    margin-top: 10px;
-    
-}
 
-
-
-
-.inputContacto,
-textarea{
-    display: block;
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
-    margin-bottom: 10px;
-}
 
 
 /*APARTADO BLOG*/
@@ -413,6 +459,9 @@ textarea{
         text-align: center;
     }
 
+    .container{
+        display: block;
+    }
     
     
 }
@@ -449,6 +498,12 @@ textarea{
         font-size: 40px;
     }
     
+    .container{
+        display: flex;
+        flex-direction: column;
+       
+      
+    }
 }
 
 
