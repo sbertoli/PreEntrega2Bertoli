@@ -376,47 +376,88 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
 
 
 /*APARTADO BLOG*/
-
 .bannerBlog{
     text-align: center;
 }
-.preparacionTitulo {
-    text-align: center;
-}
 
-.parrafo2 {
-    display: inline;
-   padding-left: 20px;
-  
-}
-.imagenPreparando {
-    display: inline;
-    width: px;
-    
-}
-
-.contenedorPreparando {
-    display: flex;
-    
-}
-.epigrafe {
-    text-align: end;
-}
-
-.h3Conoces {
-    font-size: 35px;
+.tituloPrep{
     text-decoration: underline;
-    text-transform: uppercase;
+    font-family: fantasy;
     text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.contenedorPreparando{
+    box-shadow: 5px 5px 15px gray;
+    display: inline-flex;
+    justify-content: center;
+}
+.img1{
+    box-shadow: 5px 5px 15px gray;
 }
 
-.tiposMate{
-    padding-left: 550px;
+.pasosMate{
+    font-size: 24px;
+    padding: 50px;
+    list-style: circle;
 }
 
-.fotoPie {
+.tituloTipos{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-transform:uppercase;
+    font-family: fantasy;
+    font-size: 50px;
+}
+.subtituloTipos{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.descripcionTipos{
+    text-align: center;
+    font-size: 24px;
+}
+.tiposHijo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 24px;
+}
+
+.img3{
+    margin-bottom: 20px;
+    width: 850px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.contenedorTipos{
     display: flex;
-    padding-left: 5px;
+    box-shadow: 5px 5px 20px gray;
+
+}
+
+.tituloTip{
+    padding-top: 25px;
+    text-align: start;
+    font-size: 54px;
+    text-decoration: underline;
+    font-family: 'Kalnia', serif;
+    padding-left: 10px;
+}
+.imgTip{
+    width: 550px;
+    box-shadow: 5px 5px 20px gray;
+}
+.parrafoTipos{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 35px;
+
 }
 
 
@@ -459,7 +500,42 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
         text-align: center;
     }
 
+    .contenedorTipos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     
+    }
+    .imgTip{
+        margin-top: 20px;
+    }
+
+    .tituloTip{
+        text-align: center;
+    }
+
+    .contenedorPreparando{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .pasosMate{
+        text-align: start;
+    }
+
+    .img1{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .imgGracias{
+        display: flex;
+        flex-direction: column;
+    }
+
+   
     
 }
 
@@ -499,7 +575,55 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
         width: 350px;
     }
 
+    .contenedorTipos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tituloTip{
+        text-align: center;
+    }
     
+    .imgTip{
+        width: 374px;
+        margin-top: 20px;
+    }
+
+    .contenedorPreparando{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+     } 
+     
+     .img1{
+       
+        width: 374px;
+        margin-top: 20px;
+        
+        
+     }
+        
+     
+    .img3{
+        width: 374px;
+    }
+
+    iframe{
+        width: 370px;
+    }
+
+   .imgGracias{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .nosotros1{
+   font-size: 50px;
+   }
 }
 
 
