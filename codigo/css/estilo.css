@@ -382,9 +382,9 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
 
 .tituloPrep{
     text-decoration: underline;
-    font-family: fantasy;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
     margin-top: 30px;
     margin-bottom: 50px;
     font-size: 50px;
@@ -409,7 +409,7 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
     margin-top: 20px;
     text-decoration: underline;
     text-transform:uppercase;
-    font-family: fantasy;
+    font-weight: bold;
     font-size: 50px;
 }
 .subtituloTipos{
