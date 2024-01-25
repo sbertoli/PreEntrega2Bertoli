@@ -531,6 +531,18 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
         flex-direction: column;
     }
 
+    .tituloPrep{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+
+    }
+
+    .tituloTip{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
    
     
 }
@@ -581,7 +593,6 @@ background-image: url("https://images.unsplash.com/photo-1544240841-280e8f840f4b
     .tituloPrep{
         display: flex;
         flex-direction: column;
-        background-color: red;
     }
 
     .tituloTip{
